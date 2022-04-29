@@ -1,0 +1,61 @@
+header {
+    background-color: rgb(185, 185, 140);
+    height: 300px;
+
+    h1 {
+        text-align: center;
+        margin: 0;
+    }
+
+    ul {
+        list-style: none;
+        text-align: center;
+        padding: 0px;
+
+        .flexUl {
+            display: flex;
+            justify-content: space-around;
+
+            li {
+                display: inline;
+
+                input {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+.backHome {
+    height: 500px;
+    background-image: url(/img/veganas.png);
+    background-position: center;
+    background-size: 100%;
+
+    h2 {
+        text-align: center;
+        margin: 0; 
+    }
+
+    .menu {
+        list-style: none;
+        font-family: monospace;
+        font-weight: bolder;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+footer {
+    background-color: lightgrey;
+    text-align: center;
+    height: 350px;
+
+    .palo {
+        padding-top: 150px;
+        height: 200px;
+    }
+    
+}

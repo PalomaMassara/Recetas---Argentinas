@@ -1,0 +1,67 @@
+header {
+  background-color: #b9b98c;
+  height: 300px;
+}
+
+header h1 {
+  text-align: center;
+  margin: 0;
+}
+
+header ul {
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+}
+
+header ul .flexUl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header ul .flexUl li {
+  display: inline;
+}
+
+header ul .flexUl li input {
+  font-size: 20px;
+}
+
+.backHome {
+  height: 500px;
+  background-image: url(/img/veganas.png);
+  background-position: center;
+  background-size: 100%;
+}
+
+.backHome h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.backHome .menu {
+  list-style: none;
+  font-family: monospace;
+  font-weight: bolder;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer {
+  background-color: lightgrey;
+  text-align: center;
+  height: 350px;
+}
+
+footer .palo {
+  padding-top: 150px;
+  height: 200px;
+}
+/*# sourceMappingURL=estilo.css.map */

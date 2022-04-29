@@ -23,6 +23,12 @@ main {
     height: 500px;
 }
 
+.backHome {
+    background-image: url(/img/veganas.png);
+    background-position: center;
+    background-size: 100%;
+}
+
 .palo {
     padding-top: 150px;
     height: 200px;
@@ -53,6 +59,7 @@ input {
 
 h1, h2, h3 {
     text-align: center;
+    margin: 0;
 }
 
 .div {
