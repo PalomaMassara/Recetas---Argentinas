@@ -1,5 +1,6 @@
+@charset "UTF-8";
 header {
-  background-color: #b9b98c;
+  background-color: #fdb6e8;
   height: 300px;
 }
 
@@ -63,5 +64,222 @@ footer {
 footer .palo {
   padding-top: 150px;
   height: 200px;
+}
+
+header {
+  background-color: #fdb6e8;
+  height: 300px;
+}
+
+header h1 {
+  text-align: center;
+  margin: 0;
+}
+
+header ul {
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+}
+
+header ul .flexUl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header ul .flexUl li {
+  display: inline;
+}
+
+header ul .flexUl li input {
+  font-size: 20px;
+}
+
+.card {
+  margin: 25px !important;
+}
+
+/* Header */
+header {
+  background-color: pink;
+  background-color: ;
+  height: 300px;
+}
+
+/* -- Menú flexible con Flex Box --  */
+.flexUl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+li {
+  display: inline;
+}
+
+/* Principal */
+main {
+  height: 500px;
+}
+
+.backHome {
+  background-image: url(/img/veganas.png);
+  background-position: center;
+  background-size: 100%;
+}
+
+.palo {
+  padding-top: 150px;
+  height: 200px;
+}
+
+footer {
+  background-color: lightgrey;
+  text-align: center;
+  height: 350px;
+}
+
+.menu {
+  list-style: none;
+  font-family: monospace;
+  font-weight: bolder;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+}
+
+input {
+  font-size: 20px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin: 0;
+}
+
+.div {
+  margin: 20px;
+  text-align: center;
+}
+
+#altura {
+  max-height: 4450px;
+  height: 100%;
+}
+
+/* Sección de Imagenes de recetas con Grid */
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  gap: 15px;
+  margin: 20px;
+}
+
+.imgGrid {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+  border-radius: 20px;
+}
+
+.imgGrid:hover {
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
+.img1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1/3;
+}
+
+.img2 {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 3;
+  grid-column: 3/6;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1/3;
+}
+
+.img3 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  grid-row: 3/5;
+}
+
+.img4 {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 2;
+  grid-column: 4/6;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  grid-row: 3/5;
+}
+
+.img5 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 3;
+  grid-row: 5/8;
+}
+
+.img6 {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 3;
+  grid-column: 3/6;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 3;
+  grid-row: 5/8;
+}
+
+/* Responsive - Media Queries */
+@media (max-width: 576px) {
+  .flexUl {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 767px) {
+  .grid-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  h1,
+  h2 {
+    font-family: monospace;
+  }
 }
 /*# sourceMappingURL=estilo.css.map */
