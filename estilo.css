@@ -55,19 +55,19 @@ header ul .flexUl li input {
       justify-content: space-around;
 }
 
-footer {
-  background-color: lightgrey;
+footer{
+  background-color: gray;
   text-align: center;
   height: 350px;
 }
 
-footer .palo {
+footer .palo{
   padding-top: 150px;
   height: 200px;
 }
 
 header {
-  background-color: #fdb6e8;
+  background-color: pink;
   height: 300px;
 }
 
@@ -105,7 +105,6 @@ header ul .flexUl li input {
 /* Header */
 header {
   background-color: pink;
-  background-color: ;
   height: 300px;
 }
 
@@ -143,6 +142,7 @@ footer {
   text-align: center;
   height: 350px;
 }
+
 
 .menu {
   list-style: none;
@@ -252,6 +252,8 @@ h1, h2, h3 {
   -ms-grid-row-span: 3;
   grid-row: 5/8;
 }
+
+
 
 /* Responsive - Media Queries */
 @media (max-width: 576px) {
