@@ -1,6 +1,6 @@
 @charset "UTF-8";
 header {
-  background-color: #fdb6e8;
+  background-color: pink;
   height: 300px;
 }
 
@@ -56,7 +56,7 @@ header ul .flexUl li input {
 }
 
 footer {
-  background-color: lightgrey;
+  background-color: pink;
   text-align: center;
   height: 350px;
 }
@@ -67,7 +67,7 @@ footer .palo {
 }
 
 header {
-  background-color: #fdb6e8;
+  background-color: pink;
   height: 300px;
 }
 
@@ -105,7 +105,6 @@ header ul .flexUl li input {
 /* Header */
 header {
   background-color: pink;
-  background-color: ;
   height: 300px;
 }
 
@@ -139,7 +138,7 @@ main {
 }
 
 footer {
-  background-color: lightgrey;
+  background-color: pink;
   text-align: center;
   height: 350px;
 }
